@@ -25,6 +25,7 @@ public:
     personType(string first = "", string middle = "", string last = "");
 
 private:
+
     string firstName;
     string middleName;
     string lastName;

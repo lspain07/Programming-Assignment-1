@@ -1,9 +1,15 @@
-#include <iostream> 
+// Lukas Spain
+
+#include <iostream>
+#include "personType.h"
 
 using namespace std;
 
 int main() 
 {
-    // Write your main here 
+    personType person("Lukas", "Ray", "Spain");
+    person.print();
+
+
     return 0;
 }
