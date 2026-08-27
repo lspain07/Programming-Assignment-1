@@ -15,9 +15,6 @@ public:
     void setFirstName(string first);
     void setMiddleName(string middle);
 
-    // functions to choose to only set the first or last names
-    bool firstOnly();
-    bool lastOnly();
     bool isLastName(string last) const;
     // extra function to check if the middle name is the same as the hard coded one
     bool isMiddleName(string middle) const;
