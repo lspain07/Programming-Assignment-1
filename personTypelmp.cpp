@@ -52,3 +52,16 @@ bool personType::isLastName(string last) const
 {
 	return (lastName == last);
 }
+
+
+string personType::getFirstName() const
+{
+	return firstName;
+}
+
+
+string personType::getLastName() const
+{
+	return lastName;
+}
+
